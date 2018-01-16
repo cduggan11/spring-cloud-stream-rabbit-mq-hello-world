@@ -1,0 +1,5 @@
+rabbitmqsrpingcloud:
+   image: rabbitmq:3.6.14-management-alpine
+   ports:
+    - "15672:15672"
+    - "5672:5672"
